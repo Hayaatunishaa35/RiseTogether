@@ -1,7 +1,5 @@
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 import "@openzeppelin/contracts/access/Ownable.sol";
-// import {CampaignTypes} from "./CampaignTypes.sol";
 
 contract CrowdFunding is Ownable {
     error LowEtherAmount(uint minAmount, uint payedAmount);
